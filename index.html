@@ -1,35 +1,33 @@
-<!doctype html>
+---
+layout: default
+title: Home
+---
 
-<html lang="en">
-<head>
-  <meta charset="utf-8">
+<div class="posts">
+  {% for post in paginator.posts %}
+  <article class="post">
+    <h1 class="post-title">
+      <a href="{{ site.baseurl }}{{ post.url }}">
+        {{ post.title }}
+      </a>
+    </h1>
 
-  <title>Kumar Gaurav</title>
-  <meta name="description" content="Personal Site for Kumar Gaurav">
-  <meta name="author" content="Kumar Gaurav">
+    <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date_to_string }}</time>
 
-</head>
+    {{ post.content }}
+  </article>
+  {% endfor %}
+</div>
 
-<body style="margin-left: 400px; width: 500px;">
-  <h3>Personal Site for Kumar Gaurav</h3>
-  
-  <h4>About</h4>
-  <p>Kumar is a software engineer with an experience of 9 years. With top notch communication and liaising skills, he stands at the epicentre of Business, Product and Technology. He is adept at team and technical leadership and specialises in development, in-time delivery of products, building and mentoring brilliant technical teams and leading them to excellence. He strongly advocates and practices agile methodologies for software development. <br></br>He is also the co- founder of attachawal.com, a startup in e-commerce space, now defunct. <br></br>He actively writes code and is currently building a book recommendation engine written in Golang on weekends. He is based out of Bangalore, India.
-  </p>
-  <h4>Resume</h4>
-  <ul>
-    <li>
-      <a href="https://www.dropbox.com/s/dfs3ezuisrrznwt/KumarGaurav-Brief.pdf?dl=0">Single Page</a></li>
-    <li>
-      <a href="https://www.dropbox.com/s/wzye8fd3wf0wpwq/KumarGaurav-Detailed.pdf?dl=0">Detailed</a></li>
-  </ul>
-  <h4>Contact</h4>
-  <ul>
-    <li> Email: echo kzgxtxhzegzrxexazxtz@gzmxazixlx.zczoxmx | tr -d 'zx' (strike out x and z if not near a terminal) </li>
-    <li><a href="http://github.com/kgthegreat">Github</li>  
-    <li><a href="http://linkedin.com/in/kgthegreat">Linkedin</li>  
-    <li><a href="http://twitter.com/kgthegreat">Twitter</li>  
-    <li><a href="http://currentricity.wordpress.com/">Blog. Pretty old</li> 
-  </ul>
-</body>
-</html>
+<div class="pagination">
+  {% if paginator.next_page %}
+    <a class="pagination-item older" href="{{ paginator.next_page_path | prepend: site.baseurl }}">Older</a>
+  {% else %}
+    <span class="pagination-item older">Older</span>
+  {% endif %}
+  {% if paginator.previous_page %}
+    <a class="pagination-item newer" href="{{ paginator.previous_page_path | prepend: site.baseurl }}">Newer</a>
+  {% else %}
+    <span class="pagination-item newer">Newer</span>
+  {% endif %}
+</div>
