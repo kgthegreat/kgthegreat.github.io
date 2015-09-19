@@ -59,3 +59,29 @@ $ rvm install 2.2
 # Install bundle as a global gem
 $ rvm @global do gem install bundler
 {% endhighlight %}
+
+### Java
+
+Download from Oracle's website
+
+{% highlight bash %}
+# To set JAVA_HOME
+$ export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/
+{% endhighlight %}
+
+
+### Autojump
+
+{% highlight bash %}
+# Pretty nifty directory navigation tool
+$ brew install autojump
+# Add the following to your .bash_profile(or equivalent)
+[[ -s $(brew --prefix)/etc/profile.d/autojump.sh ]] && . $(brew --prefix)/etc/profile.d/autojump.sh
+{% endhighlight %}
+
+
+### ZSH
+
+{% highlight bash %}
+$ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+{% endhighlight %}
