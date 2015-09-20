@@ -3,7 +3,7 @@ layout: post
 title: Development Environment on OSX
 ---
 
-In this post I document the steps required to install various tools and environment to start development on OSX 10.10 (Yosemite). This post will always be WIP.
+In this post I document the steps required to install various tools and environment to start development on OSX 10.10 (Yosemite). This is an evolving document.
 
 -----
 
@@ -66,7 +66,7 @@ Download from Oracle's website
 
 {% highlight bash %}
 # To set JAVA_HOME
-$ export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/
+$ export JAVA_HOME=/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/
 {% endhighlight %}
 
 
@@ -85,3 +85,9 @@ $ brew install autojump
 {% highlight bash %}
 $ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 {% endhighlight %}
+
+### Browser Plugins
+
+1. Adblock
+2. Privacy Badger
+3. HTTPS Everywhere
