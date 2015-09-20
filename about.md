@@ -27,5 +27,4 @@ $ echo kzgxtxhzegzrxexazxtz@gzmxazixlx.zczoxmx | tr -d 'zx'
    </li>        
     <li><a href="http://linkedin.com/in/kgthegreat">Linkedin</a></li>  
     <li><a href="http://twitter.com/kgthegreat">Twitter</a></li>  
-    <li><a href="http://kumargaurav.co/">Blog (This Site)</a></li> 
   </ul>
