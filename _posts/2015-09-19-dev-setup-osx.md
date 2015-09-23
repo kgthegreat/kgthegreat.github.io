@@ -91,3 +91,18 @@ $ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools
 1. Adblock
 2. Privacy Badger
 3. HTTPS Everywhere
+
+### Mysql
+
+{% highlight bash %}
+# Install using brew
+$ brew install mysql
+# To run the server
+$ mysql.server start
+# To connect:
+$ mysql -uroot
+# To have launchd start mysql at login:
+$ ln -sfv /usr/local/opt/mysql/*.plist ~/Library/LaunchAgents
+# Then to load mysql now:
+$ launchctl load ~/Library/LaunchAgents/homebrew.mxcl.mysql.plist
+{% endhighlight %}
