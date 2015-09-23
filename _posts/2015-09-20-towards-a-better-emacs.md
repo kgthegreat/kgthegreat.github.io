@@ -25,7 +25,7 @@ M-x package-install[RET] better-defaults
 
 <a href="https://github.com/technomancy/better-defaults">Github Link</a>
 
-### smex
+### Smex
 {% highlight lisp %}
 M-x package-install[RET] smex
 
@@ -40,5 +40,12 @@ M-x package-install[RET] smex
 
 <a href="https://github.com/nonsequitur/smex">Github Link</a>
 
+### Window Navigation
 
+{% highlight lisp %}
+(global-set-key (kbd "C-x <up>") 'windmove-up)
+(global-set-key (kbd "C-x <down>") 'windmove-down)
+(global-set-key (kbd "C-x <right>") 'windmove-right)
+(global-set-key (kbd "C-x <left>") 'windmove-left)
+{% endhighlight %}
 
