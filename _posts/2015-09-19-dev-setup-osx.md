@@ -106,3 +106,10 @@ $ ln -sfv /usr/local/opt/mysql/*.plist ~/Library/LaunchAgents
 # Then to load mysql now:
 $ launchctl load ~/Library/LaunchAgents/homebrew.mxcl.mysql.plist
 {% endhighlight %}
+
+### Maven
+
+{% highlight bash %}
+$ brew install maven
+$ mvn -version
+{% endhighlight %}
