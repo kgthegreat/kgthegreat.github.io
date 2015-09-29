@@ -139,4 +139,6 @@ $ brew install php55-mcrypt
 {% highlight bash %}
 $ brew install libmemcached
 $ brew install php55-memcached
+# Run the server
+$ memcached -d
 {% endhighlight %}
