@@ -113,3 +113,30 @@ $ launchctl load ~/Library/LaunchAgents/homebrew.mxcl.mysql.plist
 $ brew install maven
 $ mvn -version
 {% endhighlight %}
+
+### Composer
+
+{% highlight bash %}
+# Install composer in your pwd. Requires PHP. 
+$ curl -sS https://getcomposer.org/installer | php
+# To use
+$ php composer.phar
+# Move it to a directory under PATH if you need it globally
+$ mv composer.phar /usr/local/bin/composer
+# Use it
+$ composer
+{% endhighlight %}
+
+### mcrypt
+
+{% highlight bash %}
+$ brew tap homebrew/php
+$ brew install php55-mcrypt
+{% endhighlight %}
+
+### Memcache
+
+{% highlight bash %}
+$ brew install libmemcached
+$ brew install php55-memcached
+{% endhighlight %}
