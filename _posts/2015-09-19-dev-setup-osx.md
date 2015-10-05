@@ -142,3 +142,12 @@ $ brew install php55-memcached
 # Run the server
 $ memcached -d
 {% endhighlight %}
+
+
+### Node and NPM
+
+{% highlight bash %}
+$ brew install node
+$ node -v
+$ npm -v
+{% endhighlight %}
