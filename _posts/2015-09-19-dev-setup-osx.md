@@ -66,7 +66,7 @@ Download from Oracle's website
 
 {% highlight bash %}
 # To set JAVA_HOME
-$ export JAVA_HOME=/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/
+$ export JAVA_HOME=`/usr/libexec/java_home`
 {% endhighlight %}
 
 
@@ -148,6 +148,40 @@ $ memcached -d
 
 {% highlight bash %}
 $ brew install node
+# check
 $ node -v
 $ npm -v
 {% endhighlight %}
+
+
+### Redis
+
+{% highlight bash %}
+$ brew update
+$ brew install redis
+# To have launchd start redis at login:
+$ ln -sfv /usr/local/opt/redis/*.plist ~/Library/LaunchAgents
+# Then to load redis now:
+$ launchctl load ~/Library/LaunchAgents/homebrew.mxcl.redis.plist
+# Or, if you don't want/need launchctl, you can just run:
+$ redis-server /usr/local/etc/redis.conf
+{% endhighlight %}
+
+
+### Mule ESB
+
+You can use mule in conjunction with AnyPoint IDE(Eclipse based) or as standalone runtime, which I prefer.
+Download the community edition standalone from https://developer.mulesoft.com/download-mule-esb-runtime
+Extract the zip and probably place it to a dir where you normally put software. For me it is ~/installs
+
+{% highlight bash %}
+$ cd <where_you_unzipped_mule>
+# To start mule 
+$ /bin/mule
+# To start mule as daemeon
+$ /bin/mule start
+# To stop|restart
+$ /bin/mule stop|restart
+{% endhighlight %}
+
+To deploy applications to the standalone mule runtime, drop your project's zip file to $MULE_HOME/apps and start mule
