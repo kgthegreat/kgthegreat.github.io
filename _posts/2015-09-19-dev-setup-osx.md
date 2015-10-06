@@ -177,11 +177,11 @@ Extract the zip and probably place it to a dir where you normally put software. 
 {% highlight bash %}
 $ cd <where_you_unzipped_mule>
 # To start mule 
-$ /bin/mule
+$ ./bin/mule
 # To start mule as daemeon
-$ /bin/mule start
+$ ./bin/mule start
 # To stop|restart
-$ /bin/mule stop|restart
+$ ./bin/mule stop|restart
 {% endhighlight %}
 
 To deploy applications to the standalone mule runtime, drop your project's zip file to $MULE_HOME/apps and start mule
