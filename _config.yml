@@ -8,7 +8,7 @@ relative_permalinks: true
 title:               Kumar Gaurav
 tagline:             Personal Site
 url:                 http://kumargaurav.co
-paginate:            3
+paginate:            25
 baseurl:             ""
 
 # Assets
