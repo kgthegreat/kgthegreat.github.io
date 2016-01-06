@@ -185,3 +185,31 @@ $ ./bin/mule stop|restart
 {% endhighlight %}
 
 To deploy applications to the standalone mule runtime, drop your project's zip file to $MULE_HOME/apps and start mule
+
+### Groovy
+
+{% highlight bash %}
+$ brew update
+$ brew install groovy
+# Set GROOVY_HOME
+$ export GROOVY_HOME=/usr/local/opt/groovy/libexec
+{% endhighlight %}
+
+### Grails
+
+{% highlight bash %}
+$ brew update
+$ brew install grails
+# Set GRAILS_HOME
+$ export GRAILS_HOME=/usr/local/opt/grails/libexec
+{% endhighlight %}
+
+
+### Tree
+
+Tree is a command line utility to view content of a dir in a tree like structure
+
+{% highlight bash %}
+$ brew update
+$ brew install tree
+{% endhighlight %}
