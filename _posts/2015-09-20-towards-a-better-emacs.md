@@ -68,3 +68,29 @@ M-x package-install [RET] find-file-in-repository [RET]
      (add-to-list 'grep-find-ignored-directories "dist")))
 {% endhighlight %}
 
+### Duplicate a line
+
+{% highlight lisp %}
+(defun duplicate-line()
+  (interactive) 
+  (move-beginning-of-line 1)
+  (kill-line)
+  (yank)
+  (open-line 1)
+  (next-line 1)
+  (yank)
+)
+(global-set-key (kbd "C-d") 'duplicate-line)
+{% endhighlight %}
+
+<a href="http://stackoverflow.com/a/88828/178975">Hat Tip</a>
+
+### Auto complete
+
+{% highlight lisp %}
+M-x package-install-packages
+;; Search for auto-complete in MELPA, mark it to be installed by pressing i at the column and then press x to install
+{% endhighlight %}
+
+<a href="http://auto-complete.org/doc/manual.html">More info</a>
+

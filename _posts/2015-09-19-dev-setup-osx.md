@@ -151,6 +151,10 @@ $ brew install node
 # check
 $ node -v
 $ npm -v
+
+# Upgrade node
+$ brew update
+$ brew upgrade node
 {% endhighlight %}
 
 
@@ -212,4 +216,12 @@ Tree is a command line utility to view content of a dir in a tree like structure
 {% highlight bash %}
 $ brew update
 $ brew install tree
+{% endhighlight %}
+
+
+### Mongo DB
+
+{% highlight bash %}
+$ brew update
+$ brew install mongodb
 {% endhighlight %}
