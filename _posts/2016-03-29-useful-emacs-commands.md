@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Useful Emacs Commangs
+title: Useful Emacs Commands
 ---
 
 In this post I list the useful emacs commands and functions I come across.
