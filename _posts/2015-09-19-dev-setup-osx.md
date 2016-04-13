@@ -225,3 +225,16 @@ $ brew install tree
 $ brew update
 $ brew install mongodb
 {% endhighlight %}
+
+### Golang
+
+{% highlight bash %}
+# Recommended: $HOME/go. I use $HOME/code/go
+$ export GOPATH=$HOME/code/go
+$ export PATH=$PATH:$GOPATH/bin
+$ brew update
+$ brew install go
+$ go version
+{% endhighlight %}
+
+<a href="https://golang.org/doc/code.html">Hat Tip</a>

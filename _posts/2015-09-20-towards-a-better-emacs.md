@@ -94,3 +94,22 @@ M-x package-install-packages
 
 <a href="http://auto-complete.org/doc/manual.html">More info</a>
 
+### Keep auto save files out of current dir
+
+{% highlight lisp %}
+(setq backup-directory-alist
+          `((".*" . ,temporary-file-directory)))
+(setq auto-save-file-name-transforms      
+          `((".*" ,temporary-file-directory t)))
+{% endhighlight %}
+
+
+### Running emacs as daemon
+
+I have added the following lines to my shell rc
+
+{% highlight shell %}
+alias ed="emacs --daemon"
+alias ec="emacsclient -t"
+alias ek="emacsclient -e '(kill-emacs)'"
+{% endhighlight %}
