@@ -241,7 +241,12 @@ $ go version
 
 ### How to stop brew from upgrading certain formulas
 
-When {% highlight bash %} $ brew upgrade {% endhighlight %} is issued, brew will update all the formulas. To stop certain formulas from upgrading do this
+When
+{% highlight bash %}
+$ brew upgrade
+{% endhighlight %}
+is issued, brew will update all the formulas.
+To stop certain formulas from upgrading, do this
 {% highlight bash %}
 $ brew pin certainformula
 {% endhighlight %}
