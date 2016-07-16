@@ -13,7 +13,7 @@ In this post I document the steps required to install various tools and environm
 $ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 {% endhighlight %}
 
-### How to stop brew from upgrading certain formulas
+#### How to stop brew from upgrading certain formulas
 
 When
 {% highlight bash %}
