@@ -250,3 +250,35 @@ $ go version
 {% endhighlight %}
 
 <a href="https://golang.org/doc/code.html">Hat Tip</a>
+
+### Gradle
+
+{% highlight bash %}
+$ brew install gradle
+{% endhighlight %}
+
+### Pip
+
+{% highlight bash %}
+$ sudo easy_install pip
+{% endhighlight %}
+
+### AWSCLI
+
+{% highlight bash %}
+$ pip install awscli
+# If there is an error "Uninstalling a distutils installed project (six)..." on El Kapitan then use the following command
+$ sudo pip install awscli --ignore-installed six
+{% endhighlight %}
+
+### RethinkDB
+
+{% highlight bash %}
+$ brew update && brew install rethinkdb
+{% endhighlight %}
+
+### ssh-copy-id
+
+{% highlight bash %}
+$ brew update && brew install ssh-copy-id
+{% endhighlight %}
