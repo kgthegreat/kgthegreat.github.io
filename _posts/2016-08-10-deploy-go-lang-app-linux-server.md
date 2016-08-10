@@ -39,6 +39,26 @@ $ sudo apt-get update
 $ sudo apt-get install rethinkdb
 {% endhighlight %}
 
-* Run the binary. Access it at http://[ip]:[port] 
+* You may want to run RethinkDB as a service
+{% highlight bash %}
+$ sudo cp /etc/rethinkdb/default.conf.sample /etc/rethinkdb/instances.d/instance1.conf
+$ sudo vim /etc/rethinkdb/instances.d/instance1.conf
+$ sudo /etc/init.d/rethinkdb restart
+{% endhighlight %}
+
+* Run the binary. You may want to run it with nohup so that the process stays alive even after your session. Remember, quick and dirty. There are other better ways to do this.
+{% highlight bash %}
+$ nohup ./<binary_name> &
+{% endhighlight %}
+
+* Access it at http://[ip]:[port] 
+
+* Stop the process
+{% highlight bash %}
+# This will give you the pid
+$ ps -aux | grep <binary_name>
+# use the pid obtained above
+$ kill -9 <pid>
+{% endhighlight %}
 
 
