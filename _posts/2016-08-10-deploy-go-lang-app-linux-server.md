@@ -14,8 +14,8 @@ I am writing a recommendation engine in Golang and wanted to put up the initial 
 ### Steps
 
 * Get a VPS. I got one from Digital Ocean. Use this referral <a href="https://m.do.co/c/0e9b19aad9a9">link</a> to get some free credits for you and me.
-* Secure the VPS(Relatively speaking). Since my server was running Ubuntu, I followed this <a href="https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubuntu-14-04">tutorial</a>
-* Cross compile your golang for the target OS and Architecture. More info <a href="http://dave.cheney.net/2015/08/22/cross-compilation-with-go-1-5">here.</a>. More info <a href="https://golang.org/doc/install/source#environment">here</a> regarding OS and ARCH
+* Secure the VPS(relatively speaking). Since my server was running Ubuntu, I followed this <a href="https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubuntu-14-04">tutorial</a>
+* Cross compile your golang for the target OS and Architecture. More info <a href="http://dave.cheney.net/2015/08/22/cross-compilation-with-go-1-5">here</a>. More info <a href="https://golang.org/doc/install/source#environment">here</a> regarding OS and ARCH.
 
 {% highlight bash %}
 $ env GOOS=linux GOARCH=amd64 go build -v github.com/<github_id>/<project_path>
@@ -25,7 +25,7 @@ $ env GOOS=linux GOARCH=amd64 go build -v github.com/<github_id>/<project_path>
 {% highlight bash %}
 $ scp <executable> <username>@<ip>:/home/<username>/<app_dir>
 {% endhighlight %}
-* SCP any other assets required. In my case, I keep all assets inside a folder called static and html in a folder called templates so
+* SCP any other assets required. In my case, I keep all assets inside a folder called static and htmls in a folder called templates so
 {% highlight bash %}
 $ rsync -av templates <username>@<ip>:/home/<username>/<app_dir>
 $ rsync -av static <username>@<ip>:/home/<username>/<app_dir>
