@@ -34,13 +34,14 @@ $ rsync -av static <username>@<ip>:/home/<username>/<app_dir>
 
 * Since I am using RethinkDB,
 {% highlight bash %}
+# More info <a href="https://www.rethinkdb.com/docs/install/ubuntu/">here</a>
 $ source /etc/lsb-release && echo "deb http://download.rethinkdb.com/apt $DISTRIB_CODENAME main" | sudo tee /etc/apt/sources.list.d/rethinkdb.list
 $ wget -qO- https://download.rethinkdb.com/apt/pubkey.gpg | sudo apt-key add -
 $ sudo apt-get update
 $ sudo apt-get install rethinkdb
 {% endhighlight %}
 
-More info <a href="https://www.rethinkdb.com/docs/install/ubuntu/">here</a>
+
 
 * Run the binary. Access it at http://<ip>:<port>. 
 
