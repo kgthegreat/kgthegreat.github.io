@@ -43,6 +43,6 @@ $ sudo apt-get install rethinkdb
 
 
 
-* Run the binary. Access it at http://<ip>:<port>. 
+* Run the binary. Access it at http://[ip]:[port] 
 
 
