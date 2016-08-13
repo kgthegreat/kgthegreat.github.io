@@ -31,7 +31,7 @@ $ rsync -av templates <username>@<ip>:/home/<username>/<app_dir>
 $ rsync -av static <username>@<ip>:/home/<username>/<app_dir>
 {% endhighlight %}
 
-* Since I am using RethinkDB, it needs to be installed. More info <a href="https://www.rethinkdb.com/docs/install/ubuntu/">here</a>
+* Since I am using RethinkDB, it needs to be installed. More info <a name="rethinkdb" href="https://www.rethinkdb.com/docs/install/ubuntu/">here</a>
 {% highlight bash %}
 $ source /etc/lsb-release && echo "deb http://download.rethinkdb.com/apt $DISTRIB_CODENAME main" | sudo tee /etc/apt/sources.list.d/rethinkdb.list
 $ wget -qO- https://download.rethinkdb.com/apt/pubkey.gpg | sudo apt-key add -
