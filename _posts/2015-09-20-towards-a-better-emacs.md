@@ -113,3 +113,10 @@ alias ed="emacs --daemon"
 alias ec="emacsclient -t"
 alias ek="emacsclient -e '(kill-emacs)'"
 {% endhighlight %}
+
+### Zenburn Theme
+
+{% highlight shell %}
+M-x package-install zenburn-theme
+(load-theme 'zenburn t)
+{% endhighlight%}

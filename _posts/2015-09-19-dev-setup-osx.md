@@ -282,3 +282,16 @@ $ brew update && brew install rethinkdb
 {% highlight bash %}
 $ brew update && brew install ssh-copy-id
 {% endhighlight %}
+
+### python3
+
+{% highlight bash %}
+$ brew update && brew install python3
+{% endhighlight %}
+
+### [fswatch](https://github.com/emcrisostomo/fswatch)
+
+{% highlight bash %}
+$ brew update && brew install fswatch
+{% endhighlight %}
+
