@@ -21,7 +21,7 @@ layout: page
   <ul>
     <li> Email:
 {% highlight bash %}
-$ echo kzgxtxhzegzrxexazxtz@gzmxazixlx.zczoxmx | tr -d 'zx'
+$ echo kzgxtxhegzrexazxtz@gzmxazixl.zczoxm | tr -d 'zx'
 # strike out x and z if not near a terminal
 {% endhighlight %}
    </li>        
