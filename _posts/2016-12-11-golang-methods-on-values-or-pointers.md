@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Should methods be defined on value or pointer?
+title: Should methods be defined on value or pointer in Golang?
 ---
 
 This post points to an important distinction about methods defined on value or pointer in Golang
