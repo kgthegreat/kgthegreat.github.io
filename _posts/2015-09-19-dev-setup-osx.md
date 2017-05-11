@@ -316,6 +316,12 @@ $ brew update && brew install fswatch
 $ brew update && brew install yarn
 {% endhighlight %}
 
+### NVM
+
+{% highlight bash %}
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.2/install.sh | bash
+{% endhighlight %}
+
 ### Ansible
 
 {% highlight bash %}
