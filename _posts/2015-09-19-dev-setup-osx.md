@@ -3,7 +3,9 @@ layout: post
 title: Development Environment on OSX
 ---
 
-In this post I document the steps required to install various tools and environment to start development on OSX 10.10 (Yosemite). This is an evolving document. Last updated: 11 May 2017
+In this post I document the steps required to install various tools and environment to start development on OSX 10.10 (Yosemite). This is an evolving document.
+
+Last updated: 11 May 2017
 
 -----
 
