@@ -7,6 +7,10 @@ In this post I document the steps required to install various tools and environm
 
 -----
 
+### iterm
+
+Download [iterm](https://www.iterm2.com/)
+
 ### Homebrew
 
 {% highlight bash %}
@@ -294,4 +298,32 @@ $ brew update && brew install python3
 {% highlight bash %}
 $ brew update && brew install fswatch
 {% endhighlight %}
+
+### Yarn
+
+{% highlight bash %}
+$ brew update && brew install yarn
+{% endhighlight %}
+
+### Ansible
+
+{% highlight bash %}
+$ sudo easy_install pip
+$ sudo pip install ansible
+{% endhighlight %}
+
+### Wercker
+
+{% highlight bash %}
+$ brew tap wercker/wercker
+$ brew install wercker-cli
+{% endhighlight %}
+
+### GNU Stow
+
+{% highlight bash %}
+$ brew install stow
+{% endhighlight %}
+
+I use it for dotfiles sync as explained [here](https://alexpearce.me/2016/02/managing-dotfiles-with-stow/)
 

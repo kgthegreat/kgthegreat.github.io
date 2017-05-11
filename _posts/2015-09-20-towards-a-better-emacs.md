@@ -108,7 +108,7 @@ M-x package-install-packages
 
 I have added the following lines to my shell rc
 
-{% highlight shell %}
+{% highlight bash %}
 alias ed="emacs --daemon"
 alias ec="emacsclient -t"
 alias ek="emacsclient -e '(kill-emacs)'"
@@ -116,7 +116,18 @@ alias ek="emacsclient -e '(kill-emacs)'"
 
 ### Zenburn Theme
 
-{% highlight shell %}
+{% highlight bash %}
 M-x package-install zenburn-theme
 (load-theme 'zenburn t)
 {% endhighlight%}
+
+### JS editing
+
+{% highlight lisp %}
+M-x package-install[RET] js2-mode [RET]
+M-x package-install[RET] ac-js2 [RET]
+
+(add-hook 'js-mode-hook 'js2-minor-mode)
+(add-hook 'js2-mode-hook 'ac-js2-mode)
+(setq js2-highlight-level 3)
+{% endhighlight %}
