@@ -7,9 +7,9 @@ In this post I document the steps required to install various tools and environm
 
 -----
 
-### iterm
+### iTerm
 
-Download [iterm](https://www.iterm2.com/)
+Download [iTerm](https://www.iterm2.com/)
 
 ### Homebrew
 
