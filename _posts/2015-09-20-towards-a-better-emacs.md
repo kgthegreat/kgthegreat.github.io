@@ -131,3 +131,8 @@ M-x package-install[RET] ac-js2 [RET]
 (add-hook 'js2-mode-hook 'ac-js2-mode)
 (setq js2-highlight-level 3)
 {% endhighlight %}
+
+
+### Keys
+
+Follow [this](http://azaleasays.com/2013/07/05/setting-up-mac-os-x-and-iterm2-for-emacs/)
