@@ -3,7 +3,7 @@ layout: post
 title: Development Environment on OSX
 ---
 
-In this post I document the steps required to install various tools and environment to start development on OSX 10.10 (Yosemite). This is an evolving document.
+In this post I document the steps required to install various tools and environment to start development on OSX 10.10 (Yosemite). This is an evolving document. Last updated: 11 May 2017
 
 -----
 
@@ -28,6 +28,15 @@ To stop certain formulas from upgrading, do this
 {% highlight bash %}
 $ brew pin certainformula
 {% endhighlight %}
+
+### GNU Stow
+
+{% highlight bash %}
+$ brew install stow
+{% endhighlight %}
+
+I use it for dotfiles sync as explained [here](https://alexpearce.me/2016/02/managing-dotfiles-with-stow/)
+
 
 ### Emacs
 
@@ -318,12 +327,4 @@ $ sudo pip install ansible
 $ brew tap wercker/wercker
 $ brew install wercker-cli
 {% endhighlight %}
-
-### GNU Stow
-
-{% highlight bash %}
-$ brew install stow
-{% endhighlight %}
-
-I use it for dotfiles sync as explained [here](https://alexpearce.me/2016/02/managing-dotfiles-with-stow/)
 
