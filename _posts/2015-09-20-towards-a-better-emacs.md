@@ -136,3 +136,15 @@ M-x package-install[RET] ac-js2 [RET]
 ### Keys
 
 Follow [this](http://azaleasays.com/2013/07/05/setting-up-mac-os-x-and-iterm2-for-emacs/)
+
+### Speedbar in the current frame
+
+Speedbar is great for tree navigation. It comes with emacs 24+ by default. To open speedbar in current frame, use [this](https://www.emacswiki.org/emacs/SrSpeedbar)
+
+### Find any file in a git project
+
+Use [helm](https://emacs-helm.github.io/helm/) and [helm-ls-git]() to get a fast and fantastic project browser.
+
+{% highlight lisp %}
+M-x (global-set-key (kbd "C-x C-d") 'helm-browse-project)
+{% endhighlight %}
