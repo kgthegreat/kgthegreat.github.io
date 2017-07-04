@@ -7,6 +7,8 @@ This post lists some customizations and libs towards a better Emacs IMO. This is
 
 -----
 
+Updated: 4 July 2017
+
 ### Adding Marmalade
 
 {% highlight lisp %}
