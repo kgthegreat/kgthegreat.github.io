@@ -18,3 +18,10 @@ List your bookmarks
 C-x r l
 
 <a href="https://www.emacswiki.org/emacs/BookMarks">Emacs wiki page on bookmarks</a>
+
+
+### Navigation
+
+M-< beginnning of buffer
+M-> end of buffer
+C-x h Mark whole buffer/Select All
