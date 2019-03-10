@@ -259,8 +259,15 @@ $ brew install mongodb
 # Recommended: $HOME/go. I use $HOME/code/go
 $ export GOPATH=$HOME/code/go
 $ export PATH=$PATH:$GOPATH/bin
+
+# Put the above in ~/.zshrc or ~/.bashrc or whatever suits you
+
+$ mkdir -p $GOPATH $GOPATH/src $GOPATH/pkg $GOPATH/bin
 $ brew update
 $ brew install go
+
+# Alternatively, download from go website and install
+
 $ go version
 {% endhighlight %}
 
