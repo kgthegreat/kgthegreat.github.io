@@ -46,6 +46,11 @@ $ sudo vim /etc/rethinkdb/instances.d/instance1.conf
 $ sudo /etc/init.d/rethinkdb restart
 {% endhighlight %}
 
+* You may have to whitelist the port your app is running on
+{% highlight bash %}
+# if you are using ufw
+$ sudo ufw allow 8081/tcp
+
 * Run the binary. You may want to run it with nohup so that the process stays alive even after your session. Remember, quick and dirty. There are other better ways to do this.
 {% highlight bash %}
 $ nohup ./<binary_name> &
