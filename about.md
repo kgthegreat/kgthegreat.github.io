@@ -3,10 +3,11 @@ layout: page
 ---
 
 <h4>About</h4>
-<p>Kumar is a software engineer with an experience of over 11 years. With top notch engineering and communication skills, he stands at the epicentre of Business, Product and Technology. He is adept at team and technical leadership and specialises in development, in-time delivery of products, building and mentoring brilliant technical teams and leading them to excellence. He strongly advocates and practices agile methodologies for software development.
+<p>Kumar is a software engineer with an experience of over 16 years. With top notch engineering and communication skills, he stands at the epicentre of Business, Product and Technology. He is adept at team and technical leadership and specialises in development, in-time delivery of products, building and mentoring brilliant technical teams and leading them to excellence. He strongly advocates and practices agile methodologies for software development.
 </p>
+
 <p>He is also the co-founder of attachawal.com, a startup in e-commerce space, now defunct.</p>
-<p>He actively writes code. He is currently based out of London.
+<p>He actively writes code. He is currently based out of London working with Skyscanner as an Engineering Leader.</p>
 <p>This site is powered by <a href="https://pages.github.com">github pages</a>, <a href="http://jekyllrb.com">jekyll</a> and <a href="https://github.com/poole/poole">poole</a>
 </p>
 <h4>Contact</h4>
