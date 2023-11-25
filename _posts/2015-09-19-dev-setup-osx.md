@@ -273,6 +273,11 @@ $ go version
 
 <a href="https://golang.org/doc/code.html">Hat Tip</a>
 
+Upgrade when not using brew
+
+Go to <a href="https://go.dev/doc/install">https://go.dev/doc/install</a>, download the appropriate package and run the installer. This will take care of deleting the old install and upgrading
+
+
 ### Gradle
 
 {% highlight bash %}
