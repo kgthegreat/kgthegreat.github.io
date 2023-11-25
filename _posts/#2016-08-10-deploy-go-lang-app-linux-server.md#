@@ -51,6 +51,7 @@ $ sudo /etc/init.d/rethinkdb restart
 # if you are using ufw
 $ sudo ufw allow 8081/tcp
 {% endhighlight %}
+
 * Run the binary. You may want to run it with nohup so that the process stays alive even after your session. Remember, quick and dirty. There are other better ways to do this.
 {% highlight bash %}
 $ nohup ./<binary_name> &
