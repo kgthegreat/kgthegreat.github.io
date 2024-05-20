@@ -5,7 +5,7 @@ title: Development Environment on OSX
 
 In this post I document the steps required to install various tools and environment to start development on OSX 10.10 (Yosemite). This is an evolving document.
 
-Last updated: 25 Nov 2023
+Last updated: 20 Nov 2024
 
 -----
 
@@ -70,6 +70,7 @@ $ ssh-add ~/.ssh/id_rsa
 # Copy
 $ pbcopy < ~/.ssh/id_rsa.pub
 # Paste in your github account if required
+# Paste in your servers if required
 {% endhighlight %}
 
 ### RVM and Ruby
